@@ -1,0 +1,34 @@
+src/*.exe
+src/shekel
+src/shekeld
+src/test_shekel
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.shekel
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+shekel-qt
+Shekel-Qt.app
+
+# Unit-tests
+Makefile.test
+shekel-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
